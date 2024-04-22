@@ -33,7 +33,6 @@ input {
 
 .search > img {
     align-self: center;
-    justify-self: end;
 }
 
     
@@ -60,12 +59,41 @@ input[type="search"] {
 
 .profile > :nth-child(2) {
     border-radius: 50%;
-    height: 90px;
+    height: 70px;
     justify-self: center;
 }
 
 .profile > :nth-child(3) {
     align-self: center;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome-message {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    align-items: center;
+}
+
+.welcome-message > img {
+    height: 90px;
+    border-radius: 50%;
+}
+
+.header-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
+    align-items: center;
+}
+
+.header-buttons > button {
+    height: 40px;
+    border-radius: 50px;
+    border: none;
 }
 
 .sidebar {
