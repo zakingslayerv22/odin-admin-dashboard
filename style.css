@@ -105,7 +105,8 @@ input[type="search"] {
     grid-row: 1 / 4;
     background-color: aliceblue;
     display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
+    grid-template-rows: 0.2fr 0.5fr 1fr;
+    gap: 3rem;
     
  }
 
@@ -124,17 +125,20 @@ input[type="search"] {
     font-size: 2rem;
 }
 
-.sidebar-main {
+.sidebar-main, .sidebar-last {
     display: grid;
-    gap: 0.4rem;
+    gap: 1rem;
     grid-template-columns: 1fr 2fr;
-    align-items: center;
-   
+    align-items: center; 
 }
 
-.sidebar-main > img {
+.sidebar-main > img, .sidebar-last > img {
     height: 30px;
     justify-self: end;
+}
+
+.sidebar-last {
+    align-content: start;
 }
 
 /* .sidebar-main:nth-child(2n) {
