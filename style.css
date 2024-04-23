@@ -101,23 +101,42 @@ input[type="search"] {
     border: none;
 }
 
-.dashboard-header {
+.sidebar-header {
     display: grid;
+    gap: 0.5rem;
     grid-template-columns: 1fr 2fr;
 }
 
-.dashboard-header > img {
+.sidebar-header > img {
     height: 50px;
     justify-self: end;
 }
 
-.dashboard-header > p {
-    font-size: 2rem
+.sidebar-header > p {
+    font-size: 2rem;
 }
+
+.sidebar-main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+   
+}
+
+.sidebar-main > img {
+    height: 30px;
+    justify-self: end;
+}
+
+/* .sidebar-main:nth-child(2n) {
+    
+
+} */
 
 .sidebar {
    grid-row: 1 / 4;
    background-color: aliceblue;
+   
 }
 
 .footer {
