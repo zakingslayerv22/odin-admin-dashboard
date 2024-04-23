@@ -104,9 +104,11 @@ input[type="search"] {
 .sidebar {
     grid-row: 1 / 4;
     background-color: aliceblue;
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
     
  }
- 
+
 .sidebar-header {
     display: grid;
     gap: 0.5rem;
