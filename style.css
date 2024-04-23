@@ -101,6 +101,12 @@ input[type="search"] {
     border: none;
 }
 
+.sidebar {
+    grid-row: 1 / 4;
+    background-color: aliceblue;
+    
+ }
+ 
 .sidebar-header {
     display: grid;
     gap: 0.5rem;
@@ -118,8 +124,9 @@ input[type="search"] {
 
 .sidebar-main {
     display: grid;
-    gap: 1rem;
+    gap: 0.4rem;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
    
 }
 
@@ -130,14 +137,9 @@ input[type="search"] {
 
 /* .sidebar-main:nth-child(2n) {
     
-
 } */
 
-.sidebar {
-   grid-row: 1 / 4;
-   background-color: aliceblue;
-   
-}
+
 
 .footer {
     grid-column: 2;
