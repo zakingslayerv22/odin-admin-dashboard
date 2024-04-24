@@ -165,7 +165,16 @@ input[type="search"] {
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
 }
+
+.content > div {
+    border-radius: 5%;
+    padding: 1.5rem;
+    background-color: rgb(255, 251, 246);
+}
+
+
 
 .footer {
     grid-column: 2;
