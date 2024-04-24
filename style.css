@@ -170,11 +170,17 @@ input[type="search"] {
 
 .content > div {
     border-radius: 5%;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem 0rem 1.5rem;
     background-color: rgb(255, 251, 246);
 }
 
+.card-icons {
+    padding-top: 1rem;
+}
 
+.card-icons > img {
+    height: 20px;
+}
 
 .footer {
     grid-column: 2;
