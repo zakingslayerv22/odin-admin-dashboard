@@ -193,6 +193,13 @@ input[type="search"] {
     gap: 1rem
 }
 
+.announcements {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
 .announcement-content > div {
     padding: 1rem;
 }
