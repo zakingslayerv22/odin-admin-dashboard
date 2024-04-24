@@ -186,6 +186,18 @@ input[type="search"] {
     height: 20px;
 }
 
+
+.main-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem
+}
+
+.announcement-content > div {
+    padding: 1rem;
+}
+
+
 .footer {
     grid-column: 2;
 }
