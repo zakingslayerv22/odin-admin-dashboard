@@ -176,6 +176,10 @@ input[type="search"] {
 
 .card-icons {
     padding-top: 1rem;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    
 }
 
 .card-icons > img {
