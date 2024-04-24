@@ -107,6 +107,7 @@ input[type="search"] {
     display: grid;
     grid-template-rows: 0.2fr 0.5fr 1fr;
     gap: 3rem;
+    padding-top: 2rem;
     
  }
 
@@ -129,7 +130,7 @@ input[type="search"] {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 2fr;
-    align-items: center; 
+    align-items: center;  
 }
 
 .sidebar-main > img, .sidebar-last > img {
@@ -145,7 +146,17 @@ input[type="search"] {
     
 } */
 
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    padding: 0px 2rem;
+}
 
+.main-left {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;    
+}
 
 .footer {
     grid-column: 2;
