@@ -1,6 +1,17 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+
 * {
     margin: 0; padding: 0; box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 input {
@@ -71,6 +82,8 @@ input[type="search"] {
 
 .profile > :nth-child(3) {
     align-self: center;
+    font-family: Roboto-Bold, system-ui;
+    font-size: larger;
 }
 
 .header-bottom {
@@ -82,6 +95,19 @@ input[type="search"] {
     display: grid;
     grid-template-columns: 0.15fr 1fr;
     align-items: center;
+}
+
+.welcome-text {
+    
+}
+
+.welcome-text > :nth-child(1) {
+    font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.welcome-text > :nth-child(2) {
+    font-family: Roboto-Bold, system-ui;
+    font-size: larger;
 }
 
 .welcome-message > img {
@@ -97,9 +123,11 @@ input[type="search"] {
 }
 
 .header-buttons > button {
-    height: 40px;
+    height: 35px;
     border-radius: 50px;
     border: none;
+    font-family: Roboto-Bold, system-ui;
+    /* color: white; */
 }
 
 .sidebar {
@@ -116,6 +144,7 @@ input[type="search"] {
     display: grid;
     gap: 0.5rem;
     grid-template-columns: 1fr 2fr;
+    
 }
 
 .sidebar-header > img {
@@ -125,13 +154,17 @@ input[type="search"] {
 
 .sidebar-header > p {
     font-size: 2rem;
+    font-family: Roboto-Bold, system-ui;
 }
 
 .sidebar-main, .sidebar-last {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 2fr;
-    align-items: center;  
+    align-items: center; 
+    font-family: Roboto-Bold, system-ui;
+    font-size: 1.1rem; 
+    
 }
 
 .sidebar-main > img, .sidebar-last > img {
@@ -163,17 +196,29 @@ input[type="search"] {
     align-self: center;
 }
 
+.main-left > p, .main-right [class$="-title"] {
+    font-family: Roboto-Bold, system-ui;
+    font-size: 1.2rem;
+}
+
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
 
+.main-left-card > p {
+    font-family: Roboto-Bold, system-ui;
+    font-size: 1.1rem;
+}
+
 .content > div {
     border-radius: 5%;
     padding: 2rem 1.5rem 0rem 1.5rem;
     background-color: rgb(255, 251, 246);
+    font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .card-icons {
     padding-top: 1rem;
@@ -203,6 +248,8 @@ input[type="search"] {
 
 .announcement-content > div {
     padding: 1rem;
+    font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .trending-content {
@@ -219,6 +266,10 @@ input[type="search"] {
 
 .trending-content > div {
     align-self: center;
+}
+
+.avatar-handle > p {
+    font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .footer {
