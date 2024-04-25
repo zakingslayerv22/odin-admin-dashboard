@@ -193,7 +193,7 @@ input[type="search"] {
     gap: 1rem
 }
 
-.announcements {
+.announcements, .trending {
     display: grid;
     grid-template-rows: 0.1fr 1fr;
     gap: 1rem;
@@ -204,6 +204,10 @@ input[type="search"] {
     padding: 1rem;
 }
 
+.trending-content > img {
+    height: 50px;
+    border-radius: 50%;
+}
 
 .footer {
     grid-column: 2;
