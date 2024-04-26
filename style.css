@@ -8,6 +8,10 @@
     src: url(assets/fonts/Roboto-Regular.ttf);
 }
 
+:root {
+    --main-color: #065f46;
+    --lighter-color: #ecfdf5;
+}
 
 * {
     margin: 0; padding: 0; box-sizing: border-box;
@@ -124,6 +128,8 @@ input[type="search"] {
     border-radius: 50px;
     border: none;
     font-family: Roboto-Bold, system-ui;
+    background-color: var(--main-color);
+    color: white;
     /* color: white; */
 }
 
@@ -134,7 +140,7 @@ input[type="search"] {
     grid-template-rows: 0.2fr 0.5fr 1fr;
     gap: 3rem;
     padding-top: 2rem;
-    background-color: #065f46;
+    background-color: var(--main-color);
     color: white;
     
  }
@@ -181,12 +187,16 @@ input[type="search"] {
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
     padding: 0px 2rem;
-    background-color: #ecfdf5;
+    background-color: var(--lighter-color)
 }
 
 .main-left {
     display: grid;
     grid-template-rows: 0.1fr 1fr;    
+}
+
+.main-left-card > div {
+    color: #676767
 }
 
 .main-left > p {
@@ -247,6 +257,11 @@ input[type="search"] {
 .announcement-header {
     font-family: Roboto-Bold, system-ui;
     font-size: 1rem;
+}
+
+.announcement-content, .trending-content {
+    background-color: white;
+    border-radius: 10px;
 }
 
 .announcement-content > div {
