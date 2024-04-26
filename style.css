@@ -98,10 +98,6 @@ input[type="search"] {
     align-items: center;
 }
 
-.welcome-text {
-    
-}
-
 .welcome-text > :nth-child(1) {
     font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -177,9 +173,6 @@ input[type="search"] {
     align-content: start;
 }
 
-/* .sidebar-main:nth-child(2n) {
-    
-} */
 
 .main {
     display: grid;
@@ -197,7 +190,7 @@ input[type="search"] {
     align-self: center;
 }
 
-.main-left > p, .main-right [class$="-title"] {
+.main-left > p, .main [class$="-title"] {
     font-family: Roboto-Bold, system-ui;
     font-size: 1.2rem;
 }
@@ -247,10 +240,14 @@ input[type="search"] {
     padding: 1rem;
 }
 
+.announcement-header {
+    font-family: Roboto-Bold, system-ui;
+    font-size: 1rem;
+}
+
 .announcement-content > div {
     padding: 1rem;
     font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .trending-content {
