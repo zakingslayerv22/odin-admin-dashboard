@@ -15,7 +15,7 @@
 
 * {
     margin: 0; padding: 0; box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 input {
@@ -164,7 +164,7 @@ input[type="search"] {
 }
 
 .sidebar-header > p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: Roboto-Bold, system-ui;
 }
 
@@ -179,7 +179,7 @@ input[type="search"] {
 }
 
 .sidebar-main > img, .sidebar-last > img {
-    height: 30px;
+    height: 25px;
     justify-self: end;
 }
 
@@ -192,7 +192,7 @@ input[type="search"] {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
-    padding: 0px 2rem;
+    padding: 0px 2rem 1rem 2rem;
     background-color: var(--lighter-color)
 }
 
@@ -202,7 +202,7 @@ input[type="search"] {
 }
 
 .main-left-card > div {
-    color: #676767
+    color: #676767;
 }
 
 .main-left > p {
@@ -278,13 +278,15 @@ input[type="search"] {
 }
 
 .announcement-content > div {
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
 }
 
 .announcement-card > div {
     color: #676767;
     border-bottom: 1px solid rgb(103 103 103 / 0.2);
+    padding-bottom: 0.6rem;
 }
 
 .trending-content {
@@ -311,4 +313,5 @@ input[type="search"] {
     grid-column: 2;
     justify-self: center;
     align-self: center;
+    
 }
