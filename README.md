@@ -3,3 +3,5 @@ The Odin Project Admin Dashboard presented the opportunity to practice what was 
 Completing this project does not make me the Grid specialist as I know that there is still much to learn. I hope to use Grid in more projects in the future and I will be able to strengthen my Grid and CSS skills by then. 
 
 This project marks the end of the Intermediate HTML and CSS course and I am anticipating the next module.
+
+Until we meet again.
