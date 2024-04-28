@@ -292,18 +292,23 @@ input[type="search"] {
 
 .trending-content {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    /* gap: 0.4rem; */
+    grid-template-columns: 0.65fr 2fr;
+    padding-left: 1rem;
 }
 
 .trending-content > img {
-    height: 50px;
+    height: 40px;
     border-radius: 50%;
     justify-self: center;
+    align-self: center;
 }
 
 .trending-content > div {
-    
+    align-self: center;
+}
+
+.avatar-handle > p:nth-child(2) {
+    color: #676767;
 }
 
 .avatar-handle > p {
@@ -311,10 +316,6 @@ input[type="search"] {
 }
 
 .footer {
-    /* grid-column: 2;
-    grid-row: 3; */
-    /* justify-self: center; */
-    justify-content: sh;
     display: grid;
     place-content: center;
     padding: 0.65rem;
