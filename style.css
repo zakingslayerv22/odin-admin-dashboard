@@ -11,7 +11,7 @@
 :root {
     --main-color: #065f46;
     --lighter-color: #ecfdf5;
-    --complimentary-color: #E95619;
+    --complementary-color: #5f061f;
 }
 
 * {
@@ -69,6 +69,7 @@ input[type="search"] {
     border-radius: 50px;
     padding: 0.4rem;
     align-self: center;
+    background-color: var(--lighter-color);
 }
 
 .profile {
@@ -99,7 +100,8 @@ input[type="search"] {
 
 .header-bottom {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 0.5fr;
+    
 }
 
 .welcome-message {
@@ -120,11 +122,12 @@ input[type="search"] {
 .welcome-message > img {
     height: 40px;
     border-radius: 50%;
+    justify-self: center;
 }
 
 .header-buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: repeat(3, 90px); 
     gap: 2rem;
     align-items: center;
 }
@@ -167,6 +170,7 @@ input[type="search"] {
 .sidebar-header > p {
     font-size: 1.8rem;
     font-family: Roboto-Bold, system-ui;
+    align-self: center;
 }
 
 .sidebar-main, .sidebar-last {
@@ -231,7 +235,7 @@ input[type="search"] {
     padding: 2rem 1.5rem 0rem 1.5rem;
     background-color: rgb(255, 251, 246);
     font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-left: 4px solid var(--complimentary-color);
+    border-left: 4px solid var(--complementary-color);
     box-shadow: 4px 4px 6px 2px rgba(204,246,227,1);
     -webkit-box-shadow: 4px 4px 6px 2px rgba(204,246,227,1);
     -moz-box-shadow: 4px 4px 6px 2px rgba(204,246,227,1);
@@ -239,7 +243,7 @@ input[type="search"] {
 
 
 .card-icons {
-    padding-top: 1rem;
+    padding-top: 3rem;
     display: flex;
     justify-content: end;
     gap: 1rem;
@@ -319,7 +323,7 @@ input[type="search"] {
     display: grid;
     place-content: center;
     padding: 0.65rem;
-    background-color: var(--complimentary-color);
+    background-color: var(--complementary-color);
     font-family: Roboto-Regular, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
  
